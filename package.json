@@ -1,0 +1,33 @@
+{
+  "name": "pokemon-react-adventure",
+  "version": "1.0.0",
+  "description": "A react adventure with pokemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardogc/pokemon-react-adventure.git"
+  },
+  "author": "eduardogc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardogc/pokemon-react-adventure/issues"
+  },
+  "homepage": "https://github.com/eduardogc/pokemon-react-adventure#readme",
+  "dependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
